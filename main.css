@@ -10,6 +10,20 @@ header {
     color: #ecf0f1;
 }
 
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header,
+section h2 {
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
@@ -23,9 +37,9 @@ header nav li a {
 }
 
 .container {
-    max-width: 1380px;
-    width: 100%;
+    max-width: 1580px;
     margin: 0 auto;
+    
 }
 
 header .container,
@@ -34,12 +48,40 @@ section .container{
     align-items: center;
     justify-content: space-between;
     
+    
 }
 
 .brands-list img {
     height: 24px;
+    
 
 }
 .brands-list li {
     display: inline;
+    margin-right: 8px;
+    
 }
+
+section .container {
+    float: left;
+}
+
+section {
+    padding: 24px 0;
+    color: #182c61;
+
+}
+
+section h2 {
+    margin-bottom: 16px;
+    
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+.store-front {
+    margin-right: 24px;
+}
+
